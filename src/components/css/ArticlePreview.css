@@ -1,0 +1,16 @@
+/* In src/components/ArticlePreview.css */
+.article-preview {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .article-preview img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .article-preview p {
+    margin-top: 10px;
+  }
+  

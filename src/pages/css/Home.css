@@ -1,0 +1,34 @@
+/* In src/pages/Home.css */
+.home {
+    font-family: 'Garamond', serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .home-header {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+  
+  .article-grid {
+    flex: 6;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .home-footer {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

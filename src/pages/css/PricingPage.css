@@ -1,0 +1,13 @@
+/* In src/pages/css/PricingPage.css */
+.pricing-page {
+    background-color: #f5f5f5; /* Soft-grey background */
+    min-height: 100vh;
+  }
+  
+  .pricing-container {
+    display: flex;
+    justify-content: space-around; /* This creates space between the panels */
+    padding: 40px;
+    flex-wrap: wrap; /* Ensures responsiveness */
+  }
+  
